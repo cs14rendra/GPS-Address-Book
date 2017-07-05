@@ -1,0 +1,20 @@
+PODS:
+  - Realm (2.8.3):
+    - Realm/Headers (= 2.8.3)
+  - Realm/Headers (2.8.3)
+  - RealmSwift (2.8.3):
+    - Realm (= 2.8.3)
+  - SkyFloatingLabelTextField (3.1.0)
+
+DEPENDENCIES:
+  - RealmSwift
+  - SkyFloatingLabelTextField (~> 3.0)
+
+SPEC CHECKSUMS:
+  Realm: 3601ef091c8c499a31101d8563b991e75546cdce
+  RealmSwift: 8183818515471b01a99abdd2970f8e4fd52b6f4a
+  SkyFloatingLabelTextField: 26a92ad407044dd5a7c3e4e348738ff0991514fe
+
+PODFILE CHECKSUM: 9e9a9145c889ad1af9a3dc78b8acc73237f6ff0e
+
+COCOAPODS: 1.1.1

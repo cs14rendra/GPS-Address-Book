@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-GPS Address Book.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-GPS Address BookTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-GPS Address BookUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Realm.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RealmSwift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SkyFloatingLabelTextField.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>0039383397CD397B7E044B667A832E6F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0823FC734DB1AA02753C9393A64B1876</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>29B05831687F357D44A31E5742E76868</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3514BA9226951ECC619A9DC4B0335D72</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>59CC7D70C04CE22C6796FB0C05E0252B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FFA1C0BC524C99E20AC76807C9F31623</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
