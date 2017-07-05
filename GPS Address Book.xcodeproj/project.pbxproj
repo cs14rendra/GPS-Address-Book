@@ -7,14 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CED58C0AC15F74F5176DDA55 /* Pods_GPS_Address_Book.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A64CA287D65D7C96A5E3CB1A /* Pods_GPS_Address_Book.framework */; };
+		E2EB7D7A0EBA2A76BC2633AB /* Pods_GPS_Address_BookUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 760B150CE7E516EFCBADF6DE /* Pods_GPS_Address_BookUITests.framework */; };
+		ED1D69731F08AF4C00685D6B /* PopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1D69721F08AF4C00685D6B /* PopUp.swift */; };
+		ED1D69761F08E06B00685D6B /* AddressBookDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1D69751F08E06B00685D6B /* AddressBookDB.swift */; };
+		ED1D69781F08E6FE00685D6B /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1D69771F08E6FE00685D6B /* Address.swift */; };
+		ED1D697A1F0905AA00685D6B /* BookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1D69791F0905AA00685D6B /* BookTableViewCell.swift */; };
+		ED68D8B61F0B4EB0009BC558 /* lefttoRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED68D8B51F0B4EB0009BC558 /* lefttoRight.swift */; };
+		ED68D8B81F0B9A79009BC558 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED68D8B71F0B9A79009BC558 /* SettingsViewController.swift */; };
+		ED68D8BA1F0BB476009BC558 /* RateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED68D8B91F0BB476009BC558 /* RateViewController.swift */; };
+		ED68D8BC1F0BCDE6009BC558 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED68D8BB1F0BCDE6009BC558 /* Constants.swift */; };
+		ED68D8C31F0C17B4009BC558 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED68D8C21F0C17B4009BC558 /* StoreKit.framework */; };
+		ED68D8C51F0C1BE8009BC558 /* IAPHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED68D8C41F0C1BE8009BC558 /* IAPHelper.swift */; };
+		ED6F7B691F09459400DFFB41 /* BookDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6F7B681F09459400DFFB41 /* BookDetailsViewController.swift */; };
 		EDB5615C1F0822D4004C1404 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB5615B1F0822D4004C1404 /* AppDelegate.swift */; };
-		EDB5615E1F0822D4004C1404 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB5615D1F0822D4004C1404 /* FirstViewController.swift */; };
-		EDB561601F0822D4004C1404 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB5615F1F0822D4004C1404 /* SecondViewController.swift */; };
+		EDB5615E1F0822D4004C1404 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB5615D1F0822D4004C1404 /* MapViewController.swift */; };
+		EDB561601F0822D4004C1404 /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB5615F1F0822D4004C1404 /* BookViewController.swift */; };
 		EDB561631F0822D4004C1404 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDB561611F0822D4004C1404 /* Main.storyboard */; };
 		EDB561651F0822D4004C1404 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDB561641F0822D4004C1404 /* Assets.xcassets */; };
 		EDB561681F0822D4004C1404 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDB561661F0822D4004C1404 /* LaunchScreen.storyboard */; };
 		EDB561731F0822D4004C1404 /* GPS_Address_BookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB561721F0822D4004C1404 /* GPS_Address_BookTests.swift */; };
 		EDB5617E1F0822D4004C1404 /* GPS_Address_BookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB5617D1F0822D4004C1404 /* GPS_Address_BookUITests.swift */; };
+		EDB5618D1F0822E0004C1404 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDB5618C1F0822E0004C1404 /* MapKit.framework */; };
+		F8798C4EB981DD809BDF4749 /* Pods_GPS_Address_BookTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 018010E92C4B4EF7ED962B1B /* Pods_GPS_Address_BookTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +50,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		018010E92C4B4EF7ED962B1B /* Pods_GPS_Address_BookTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GPS_Address_BookTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23F5C7B67D7C1D68C6ABF0FA /* Pods-GPS Address Book.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPS Address Book.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GPS Address Book/Pods-GPS Address Book.debug.xcconfig"; sourceTree = "<group>"; };
+		31EFAD8D1784BD860CE3E0DC /* Pods-GPS Address BookTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPS Address BookTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GPS Address BookTests/Pods-GPS Address BookTests.release.xcconfig"; sourceTree = "<group>"; };
+		55728A6D670D0F82AA4D91B0 /* Pods-GPS Address Book.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPS Address Book.release.xcconfig"; path = "Pods/Target Support Files/Pods-GPS Address Book/Pods-GPS Address Book.release.xcconfig"; sourceTree = "<group>"; };
+		73784E37D489E9C4074A2202 /* Pods-GPS Address BookUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPS Address BookUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GPS Address BookUITests/Pods-GPS Address BookUITests.release.xcconfig"; sourceTree = "<group>"; };
+		760B150CE7E516EFCBADF6DE /* Pods_GPS_Address_BookUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GPS_Address_BookUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E17AABDB3C792DFB97DA242 /* Pods-GPS Address BookTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPS Address BookTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GPS Address BookTests/Pods-GPS Address BookTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A64CA287D65D7C96A5E3CB1A /* Pods_GPS_Address_Book.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GPS_Address_Book.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF99FA293D2C56B33F49E8AF /* Pods-GPS Address BookUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPS Address BookUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GPS Address BookUITests/Pods-GPS Address BookUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		ED1D69721F08AF4C00685D6B /* PopUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUp.swift; sourceTree = "<group>"; };
+		ED1D69751F08E06B00685D6B /* AddressBookDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressBookDB.swift; sourceTree = "<group>"; };
+		ED1D69771F08E6FE00685D6B /* Address.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		ED1D69791F0905AA00685D6B /* BookTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookTableViewCell.swift; sourceTree = "<group>"; };
+		ED68D8B51F0B4EB0009BC558 /* lefttoRight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = lefttoRight.swift; sourceTree = "<group>"; };
+		ED68D8B71F0B9A79009BC558 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		ED68D8B91F0BB476009BC558 /* RateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RateViewController.swift; sourceTree = "<group>"; };
+		ED68D8BB1F0BCDE6009BC558 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		ED68D8C21F0C17B4009BC558 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		ED68D8C41F0C1BE8009BC558 /* IAPHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IAPHelper.swift; sourceTree = "<group>"; };
+		ED6F7B681F09459400DFFB41 /* BookDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookDetailsViewController.swift; sourceTree = "<group>"; };
 		EDB561581F0822D4004C1404 /* GPS Address Book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GPS Address Book.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDB5615B1F0822D4004C1404 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EDB5615D1F0822D4004C1404 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		EDB5615F1F0822D4004C1404 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		EDB5615D1F0822D4004C1404 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		EDB5615F1F0822D4004C1404 /* BookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
 		EDB561621F0822D4004C1404 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EDB561641F0822D4004C1404 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDB561671F0822D4004C1404 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +84,7 @@
 		EDB561791F0822D4004C1404 /* GPS Address BookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GPS Address BookUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDB5617D1F0822D4004C1404 /* GPS_Address_BookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPS_Address_BookUITests.swift; sourceTree = "<group>"; };
 		EDB5617F1F0822D4004C1404 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDB5618C1F0822E0004C1404 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +92,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED68D8C31F0C17B4009BC558 /* StoreKit.framework in Frameworks */,
+				EDB5618D1F0822E0004C1404 /* MapKit.framework in Frameworks */,
+				CED58C0AC15F74F5176DDA55 /* Pods_GPS_Address_Book.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8798C4EB981DD809BDF4749 /* Pods_GPS_Address_BookTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +110,71 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2EB7D7A0EBA2A76BC2633AB /* Pods_GPS_Address_BookUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		022453AC4F0026F35A8B6555 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				23F5C7B67D7C1D68C6ABF0FA /* Pods-GPS Address Book.debug.xcconfig */,
+				55728A6D670D0F82AA4D91B0 /* Pods-GPS Address Book.release.xcconfig */,
+				8E17AABDB3C792DFB97DA242 /* Pods-GPS Address BookTests.debug.xcconfig */,
+				31EFAD8D1784BD860CE3E0DC /* Pods-GPS Address BookTests.release.xcconfig */,
+				AF99FA293D2C56B33F49E8AF /* Pods-GPS Address BookUITests.debug.xcconfig */,
+				73784E37D489E9C4074A2202 /* Pods-GPS Address BookUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ED1D69741F08E04400685D6B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ED1D69771F08E6FE00685D6B /* Address.swift */,
+				ED1D69751F08E06B00685D6B /* AddressBookDB.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		ED5F72DA1F0825840074BBF1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EDB5615D1F0822D4004C1404 /* MapViewController.swift */,
+				EDB5615F1F0822D4004C1404 /* BookViewController.swift */,
+				ED6F7B681F09459400DFFB41 /* BookDetailsViewController.swift */,
+				ED1D69791F0905AA00685D6B /* BookTableViewCell.swift */,
+				ED1D69721F08AF4C00685D6B /* PopUp.swift */,
+				ED68D8B71F0B9A79009BC558 /* SettingsViewController.swift */,
+				ED68D8B91F0BB476009BC558 /* RateViewController.swift */,
+				ED68D8C41F0C1BE8009BC558 /* IAPHelper.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		ED5F72DB1F0825960074BBF1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EDB561611F0822D4004C1404 /* Main.storyboard */,
+				EDB561661F0822D4004C1404 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		ED5F72DC1F08259C0074BBF1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED68D8B51F0B4EB0009BC558 /* lefttoRight.swift */,
+				ED68D8BB1F0BCDE6009BC558 /* Constants.swift */,
+				EDB5615B1F0822D4004C1404 /* AppDelegate.swift */,
+				EDB561641F0822D4004C1404 /* Assets.xcassets */,
+				EDB561691F0822D4004C1404 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		EDB5614F1F0822D3004C1404 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +182,8 @@
 				EDB561711F0822D4004C1404 /* GPS Address BookTests */,
 				EDB5617C1F0822D4004C1404 /* GPS Address BookUITests */,
 				EDB561591F0822D4004C1404 /* Products */,
+				EDB5618B1F0822E0004C1404 /* Frameworks */,
+				022453AC4F0026F35A8B6555 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +200,10 @@
 		EDB5615A1F0822D4004C1404 /* GPS Address Book */ = {
 			isa = PBXGroup;
 			children = (
-				EDB5615B1F0822D4004C1404 /* AppDelegate.swift */,
-				EDB5615D1F0822D4004C1404 /* FirstViewController.swift */,
-				EDB5615F1F0822D4004C1404 /* SecondViewController.swift */,
-				EDB561611F0822D4004C1404 /* Main.storyboard */,
-				EDB561641F0822D4004C1404 /* Assets.xcassets */,
-				EDB561661F0822D4004C1404 /* LaunchScreen.storyboard */,
-				EDB561691F0822D4004C1404 /* Info.plist */,
+				ED5F72DC1F08259C0074BBF1 /* Supporting Files */,
+				ED1D69741F08E04400685D6B /* Model */,
+				ED5F72DA1F0825840074BBF1 /* Controller */,
+				ED5F72DB1F0825960074BBF1 /* View */,
 			);
 			path = "GPS Address Book";
 			sourceTree = "<group>";
@@ -128,6 +226,18 @@
 			path = "GPS Address BookUITests";
 			sourceTree = "<group>";
 		};
+		EDB5618B1F0822E0004C1404 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED68D8C21F0C17B4009BC558 /* StoreKit.framework */,
+				EDB5618C1F0822E0004C1404 /* MapKit.framework */,
+				A64CA287D65D7C96A5E3CB1A /* Pods_GPS_Address_Book.framework */,
+				018010E92C4B4EF7ED962B1B /* Pods_GPS_Address_BookTests.framework */,
+				760B150CE7E516EFCBADF6DE /* Pods_GPS_Address_BookUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +245,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDB561821F0822D4004C1404 /* Build configuration list for PBXNativeTarget "GPS Address Book" */;
 			buildPhases = (
+				EE9807355FCB4F83EFCD8D0F /* [CP] Check Pods Manifest.lock */,
 				EDB561541F0822D3004C1404 /* Sources */,
 				EDB561551F0822D3004C1404 /* Frameworks */,
 				EDB561561F0822D3004C1404 /* Resources */,
+				06C8DBF9536483F65AE80A7C /* [CP] Embed Pods Frameworks */,
+				425E252FC5071F835FDF541D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +265,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDB561851F0822D4004C1404 /* Build configuration list for PBXNativeTarget "GPS Address BookTests" */;
 			buildPhases = (
+				8DECD3B653DA00AC8ABFE4EA /* [CP] Check Pods Manifest.lock */,
 				EDB5616A1F0822D4004C1404 /* Sources */,
 				EDB5616B1F0822D4004C1404 /* Frameworks */,
 				EDB5616C1F0822D4004C1404 /* Resources */,
+				1B8935281CE5763F5A742E88 /* [CP] Embed Pods Frameworks */,
+				484120460CE8E886FD1FA982 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +286,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDB561881F0822D4004C1404 /* Build configuration list for PBXNativeTarget "GPS Address BookUITests" */;
 			buildPhases = (
+				C95475674DB1C3B46B549F6B /* [CP] Check Pods Manifest.lock */,
 				EDB561751F0822D4004C1404 /* Sources */,
 				EDB561761F0822D4004C1404 /* Frameworks */,
 				EDB561771F0822D4004C1404 /* Resources */,
+				39967034406CFCC22F91ED4D /* [CP] Embed Pods Frameworks */,
+				4FC3595AECF55A757BD28752 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -198,6 +317,14 @@
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = G5A2E3RMNX;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					EDB5616D1F0822D4004C1404 = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -260,14 +387,162 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		06C8DBF9536483F65AE80A7C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GPS Address Book/Pods-GPS Address Book-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1B8935281CE5763F5A742E88 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GPS Address BookTests/Pods-GPS Address BookTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39967034406CFCC22F91ED4D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GPS Address BookUITests/Pods-GPS Address BookUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		425E252FC5071F835FDF541D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GPS Address Book/Pods-GPS Address Book-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		484120460CE8E886FD1FA982 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GPS Address BookTests/Pods-GPS Address BookTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4FC3595AECF55A757BD28752 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GPS Address BookUITests/Pods-GPS Address BookUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DECD3B653DA00AC8ABFE4EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C95475674DB1C3B46B549F6B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EE9807355FCB4F83EFCD8D0F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EDB561541F0822D3004C1404 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDB561601F0822D4004C1404 /* SecondViewController.swift in Sources */,
+				EDB561601F0822D4004C1404 /* BookViewController.swift in Sources */,
+				ED68D8C51F0C1BE8009BC558 /* IAPHelper.swift in Sources */,
+				ED1D69761F08E06B00685D6B /* AddressBookDB.swift in Sources */,
+				ED6F7B691F09459400DFFB41 /* BookDetailsViewController.swift in Sources */,
+				ED68D8B81F0B9A79009BC558 /* SettingsViewController.swift in Sources */,
+				ED68D8BA1F0BB476009BC558 /* RateViewController.swift in Sources */,
 				EDB5615C1F0822D4004C1404 /* AppDelegate.swift in Sources */,
-				EDB5615E1F0822D4004C1404 /* FirstViewController.swift in Sources */,
+				ED68D8B61F0B4EB0009BC558 /* lefttoRight.swift in Sources */,
+				ED1D697A1F0905AA00685D6B /* BookTableViewCell.swift in Sources */,
+				ED1D69781F08E6FE00685D6B /* Address.swift in Sources */,
+				ED1D69731F08AF4C00685D6B /* PopUp.swift in Sources */,
+				EDB5615E1F0822D4004C1404 /* MapViewController.swift in Sources */,
+				ED68D8BC1F0BCDE6009BC558 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,32 +694,39 @@
 		};
 		EDB561831F0822D4004C1404 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23F5C7B67D7C1D68C6ABF0FA /* Pods-GPS Address Book.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = G5A2E3RMNX;
 				INFOPLIST_FILE = "GPS Address Book/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.weza.GPS-Address-Book";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		EDB561841F0822D4004C1404 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55728A6D670D0F82AA4D91B0 /* Pods-GPS Address Book.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = G5A2E3RMNX;
 				INFOPLIST_FILE = "GPS Address Book/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.weza.GPS-Address-Book";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		EDB561861F0822D4004C1404 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E17AABDB3C792DFB97DA242 /* Pods-GPS Address BookTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -460,6 +742,7 @@
 		};
 		EDB561871F0822D4004C1404 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31EFAD8D1784BD860CE3E0DC /* Pods-GPS Address BookTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +758,7 @@
 		};
 		EDB561891F0822D4004C1404 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF99FA293D2C56B33F49E8AF /* Pods-GPS Address BookUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = G5A2E3RMNX;
@@ -489,6 +773,7 @@
 		};
 		EDB5618A1F0822D4004C1404 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73784E37D489E9C4074A2202 /* Pods-GPS Address BookUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = G5A2E3RMNX;
@@ -520,6 +805,7 @@
 				EDB561841F0822D4004C1404 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EDB561851F0822D4004C1404 /* Build configuration list for PBXNativeTarget "GPS Address BookTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +814,7 @@
 				EDB561871F0822D4004C1404 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EDB561881F0822D4004C1404 /* Build configuration list for PBXNativeTarget "GPS Address BookUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +823,7 @@
 				EDB5618A1F0822D4004C1404 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
