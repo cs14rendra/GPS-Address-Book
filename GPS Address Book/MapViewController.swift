@@ -58,11 +58,11 @@ class MapViewController: UIViewController {
         super.viewDidAppear(animated)
         self.requestAuthorization()
         checkTableSize()
-        //if !isAppAlreadyLaunchedOnce(){
+        if !isAppAlreadyLaunchedOnce(){
             self.cutomizeAlertView()
             self.alertView.show()
            
-        //}
+        }
     }
     
     func mapPressed(){
@@ -141,7 +141,7 @@ class MapViewController: UIViewController {
             let dst = segue.destination as! RateViewController
             dst.leftString = "Purchase"
             dst.rightString = "Rate"
-            dst.msg = "To save more address, you need to Purchase it OR you can rate us 5-Star and write Review on App Store."
+            dst.msg = "To save more address, you need to Purchase it OR you can Rate us and write Review on App Store."
             dst.toptitle = "Upgrade"
             dst.isFromMapViewController = true
         }

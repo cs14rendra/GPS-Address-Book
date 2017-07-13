@@ -700,6 +700,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = G5A2E3RMNX;
 				INFOPLIST_FILE = "GPS Address Book/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.weza.GPS-Address-Book";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -716,6 +717,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = G5A2E3RMNX;
 				INFOPLIST_FILE = "GPS Address Book/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.weza.GPS-Address-Book";
 				PRODUCT_NAME = "$(TARGET_NAME)";
