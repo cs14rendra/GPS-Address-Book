@@ -9,6 +9,7 @@
 import UIKit
 import  MapKit
 import RealmSwift
+import AlertOnboarding
 
 
 
@@ -24,6 +25,18 @@ class MapViewController: UIViewController {
     let locationmanager = CLLocationManager()
     var isTableSizeMoreThanTen = false
     
+    // Alert 
+    
+    var alertView: AlertOnboarding!
+    var arrayOfImage = ["item1", "item2", "item3","item4"]
+    var arrayOfTitle = ["SAVE ADDRESS", "STORED ADDRESS", "SHARE","NAVIGATE"]
+    var arrayOfDescription = ["Just Press and Hold on map, tap on marker, and choose action to save address or navigation to the marker",
+                              "Easily view stored address using tab bar button, option to remove then if you don't want use that address ",
+                              "Share Address to your freind/family, the exact location of any place","Navigate to stored address any time, by just clicking on the navigation button"]
+    
+    
+    
+    
     //MARK: - Super Methods
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -37,6 +50,7 @@ class MapViewController: UIViewController {
         mapView.delegate = self
         let defaults = UserDefaults.standard
         defaults.register(defaults: ["rate10":false])
+        self.alertView = AlertOnboarding(arrayOfImage: arrayOfImage, arrayOfTitle: arrayOfTitle, arrayOfDescription: arrayOfDescription)
         
     }
     
@@ -44,6 +58,11 @@ class MapViewController: UIViewController {
         super.viewDidAppear(animated)
         self.requestAuthorization()
         checkTableSize()
+        //if !isAppAlreadyLaunchedOnce(){
+            self.cutomizeAlertView()
+            self.alertView.show()
+           
+        //}
     }
     
     func mapPressed(){
@@ -226,4 +245,33 @@ extension MKMapView {
     }
 }
 
+extension MapViewController {
+    
+    
+    func cutomizeAlertView(){
+        self.alertView.colorForAlertViewBackground = UIColor.white
+        self.alertView.percentageRatioWidth = 0.95
+        self.alertView.percentageRatioHeight = 0.93
+        self.alertView.colorButtonText = RED
+        self.alertView.colorCurrentPageIndicator = RED
+        self.alertView.colorPageIndicator = RED.withAlphaComponent(0.30)
+        self.alertView.colorTitleLabel = RED.withAlphaComponent(0.70)
+        self.alertView.colorButtonBottomBackground = RED.withAlphaComponent(0.27)
+        
+        
+    }
+    
+    func isAppAlreadyLaunchedOnce()->Bool{
+        let defaults = UserDefaults.standard
+        
+        if let _ = defaults.string(forKey: "isAppAlreadyLaunchedOnce") {
+            print("App already launched")
+            return true
+        }else{
+            defaults.set(true, forKey: "isAppAlreadyLaunchedOnce")
+            print("App launched first time")
+            return false
+        }
+    }
 
+}

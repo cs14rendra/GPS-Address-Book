@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>AlertOnboarding-AlertOnboardingXib.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>AlertOnboarding.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-GPS Address Book.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -37,17 +47,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0039383397CD397B7E044B667A832E6F</key>
+		<key>085AEA33ED556A6E31D3CF6B899B5668</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>0823FC734DB1AA02753C9393A64B1876</key>
+		<key>0A4075C6D84CE4CB6B2C239D62CEA33F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>29B05831687F357D44A31E5742E76868</key>
+		<key>25EA9155C5BE6CA1884B71E103E656EA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -57,7 +67,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>59CC7D70C04CE22C6796FB0C05E0252B</key>
+		<key>567ABCEF6FFC0C362819DB25A29B4B63</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>61CAAB0B452AD9292881C77D52E53262</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C4C23EB3DFD215AF56C07021C7801E71</key>
 		<dict>
 			<key>primary</key>
 			<true/>

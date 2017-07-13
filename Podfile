@@ -6,6 +6,7 @@ target 'GPS Address Book' do
   use_frameworks!
 pod 'SkyFloatingLabelTextField', '~> 3.0'
 pod 'RealmSwift'
+pod 'AlertOnboarding'
   # Pods for GPS Address Book
 
   target 'GPS Address BookTests' do

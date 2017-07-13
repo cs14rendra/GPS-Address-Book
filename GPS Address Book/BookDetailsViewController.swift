@@ -62,6 +62,7 @@ extension BookDetailsViewController : MKMapViewDelegate{
     func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
         let anno = self.mapView.dequeueReusableAnnotationView(withIdentifier: "user") ?? MKAnnotationView()
         anno.image = UIImage(named: "Pin")
+        anno.canShowCallout = true
         
         return anno
     }
