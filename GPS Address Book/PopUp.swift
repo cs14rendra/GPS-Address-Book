@@ -18,12 +18,14 @@ class PopUp: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var details: SkyFloatingLabelTextField!
     @IBOutlet weak var placeName: SkyFloatingLabelTextField!
     @IBOutlet weak var popView: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         popView.layer.cornerRadius = 10.0
         popView.layer.masksToBounds = true
     }
+    
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         self.view.endEditing(true)
     }
